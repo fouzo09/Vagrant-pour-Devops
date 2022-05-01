@@ -1,0 +1,21 @@
+Vagrant.configure("2") do |config|
+  #VAGRANT BOX to use "geerlingguy/centos7"
+  VAGRANT_BOX = "geerlingguy/centos7"
+
+  #VAGRANT PROVIDER CPU
+  PROVIDER_CPU = 2
+
+  #VAGRANT PROVIDER MEMORY
+  PROVIDER_MEMORY = 2048
+
+  #VAGRANT PROVIDER NAME
+  PROVIDER_NAME = "LAB3"
+  
+  config.vm.box = VAGRANT_BOX
+
+  config.vm.provider "virtualbox" do |v|
+    v.name = PROVIDER_NAME
+    v.cpus = PROVIDER_CPU
+    v.memory = PROVIDER_MEMORY
+  end
+end
