@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/html":{"guestpath":"/var/www/html","hostpath":"/home/fouzo09/PROJECTS/FOUZO/LAB/VAGRANT/LAB6/website","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/fouzo09/PROJECTS/FOUZO/LAB/VAGRANT/LAB6","disabled":false,"__vagrantfile":true}}}
